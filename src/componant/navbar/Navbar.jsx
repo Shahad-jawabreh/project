@@ -10,10 +10,10 @@ export default function Navbar() {
   <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
     <ul className="navbar-nav ">
       <li className="nav-item">
-        <Link to='/product' className="nav-link fw-bold">product</Link>
+        <Link to='/' className="nav-link fw-bold">Home Page</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link fw-bold" to='/resturant'>resturant</Link>
+        <Link className="nav-link fw-bold" to='/resturant'>Menu</Link>
       </li>
     </ul>
   </div>
